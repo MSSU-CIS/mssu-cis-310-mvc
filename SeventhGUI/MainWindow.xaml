@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SeventhGUI"
         mc:Ignorable="d"
-        Title="Lifetime Baseball Statistics - Main Menu" Height="375" Width="300">
+        Title="Lifetime Baseball Statistics - Main Menu" Height="250" Width="350">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -18,7 +18,7 @@
         </Grid.ColumnDefinitions>
         <Button Content="Batting" Grid.Row="0" />
         <Button Content="Pitching" Grid.Row="1" />
-        <Button Content="Managing" Grid.Row="2" />
+        <Button Content="Managing" Grid.Row="2" Click="Button_Click" />
         <Button Content="Quit" Grid.Row="3" Click="Quit_Button_Click" />
     </Grid>
 </Window>

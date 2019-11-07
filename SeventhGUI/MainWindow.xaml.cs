@@ -21,5 +21,11 @@ namespace SeventhGUI
         {
             System.Windows.Application.Current.Shutdown();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            ManagingUI window = new ManagingUI();
+            window.ShowDialog();
+        }
     }
 }
