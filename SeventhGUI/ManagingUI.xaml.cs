@@ -35,9 +35,9 @@ namespace SeventhGUI
 
             if (selectedManager != null)
             {
-                //TODO: The "selectedX" object has properties you can access to display 
+                //TODO: The selectedManager object has properties you can access to display 
                 // the first name, last name, and (batting average or strikeouts per inning)
-                // How would you display a message box that shows this information?
+                // Write a line of code that displays a message box with this information.
             }
             else
             {
@@ -63,9 +63,10 @@ namespace SeventhGUI
             managerList.Clear();
             foreach (DataRow row in searchResults.Rows)
             {
-                //TODO: How would you create a new object using the constructor you created during the 
-                // model phase in addition to the results of your SQL query? You may need to convert some of your arguments
-                // from a long to a uint32. 
+                //TODO: Create a new object of type Manager
+                // The arguments to the constructor should match the parameters in the Manager class constructor
+                // You'll use the results of your SQL query (much like you did in the previous assignment with playerRow)
+                // You may need to convert some of your arguments from a long (that SQL returns) to a uint32. 
             }
             PopulateList();
         }
@@ -77,7 +78,7 @@ namespace SeventhGUI
 
         private string SearchSQLString(string firstName, string lastName)
         {
-            //TODO What SQL string would let you search for your pitchers or batters?
+            //TODO: What SQL string would let you search for Pitchers or Batters by name?
             // Hint: There is a table called Pitching and a table called Batting, along with Master
             // A description of the fields is located here: http://www.seanlahman.com/files/database/readme2012.txt
             return "";
