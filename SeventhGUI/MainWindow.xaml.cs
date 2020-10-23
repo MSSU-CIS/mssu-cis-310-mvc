@@ -24,8 +24,8 @@ namespace SeventhGUI
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ManagingUI window = new ManagingUI();
-            window.ShowDialog();
+            //ManagingUI window = new ManagingUI();
+            //window.ShowDialog();
         }
     }
 }
