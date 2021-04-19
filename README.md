@@ -1,1 +1,1 @@
-# mssu-cis-310-seventh-gui-template
+# mssu-cis-310-MVC
