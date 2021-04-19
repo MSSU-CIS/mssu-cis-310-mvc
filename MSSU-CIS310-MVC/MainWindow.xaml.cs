@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.SQLite;
 using System.Windows;
 
-namespace SeventhGUI
+namespace MSSU_CIS310_MVC
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -24,6 +24,7 @@ namespace SeventhGUI
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            // TODO: View/Controller - uncomment these next two lines after creating the View
             //ManagingUI window = new ManagingUI();
             //window.ShowDialog();
         }
